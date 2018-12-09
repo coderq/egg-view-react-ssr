@@ -13,7 +13,7 @@
     "react server side render"
   ],
   "dependencies": {
-    "server-side-render-resource": "^1.0.2"
+    "server-side-render-resource": "https://github.com/coderq/server-side-render-resource.git"
   },
   "peerDependencies": {
     "react": "*",
