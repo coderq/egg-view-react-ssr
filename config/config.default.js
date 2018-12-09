@@ -38,6 +38,7 @@ module.exports = app => {
     manifest: path.join(app.baseDir, 'config/manifest.json'),
     injectHeadRegex: /(<\/head>)/i,
     injectBodyRegex: /(<\/body>)/i,
+    injectPreloadRegex: /(<\/title>)/i,
     injectCss: true,
     injectJs: true,
     crossorigin: false,
