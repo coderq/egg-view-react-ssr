@@ -42,6 +42,7 @@ module.exports = app => {
     injectJs: true,
     crossorigin: false,
     injectRes: [],
+    preload: true,
     mergeLocals: true,
     fallbackToClient: true, // fallback to client rendering if server render failed
     afterRender: (html, context) => { /* eslint no-unused-vars:off */
